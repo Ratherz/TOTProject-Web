@@ -1,5 +1,4 @@
 import React from 'react';
-import Poper from 'poper.js'
 import 'bootstrap/dist/css/bootstrap.css'
 
 import Navbar from './asset/components/Navbar'
