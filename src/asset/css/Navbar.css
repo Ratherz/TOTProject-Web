@@ -1,4 +1,14 @@
 .bg-light{
-    background-color: skyblue !important;
+    background-color: rgb(7, 103, 248) !important;
     opacity: 0.8;
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    -ms-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+
+h1{
+    color: white;
+    font-size: 24px;
 }

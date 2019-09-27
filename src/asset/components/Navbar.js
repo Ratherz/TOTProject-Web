@@ -6,6 +6,7 @@ class Navbar extends React.Component{
   render(){
     return(        <div className="container-fluid">
     <nav class="navbar navbar-expand-sm navbar-dark bg-transparent fixed-top" id="banner">
+    <img src={require('../images/logo.png')} width="60" width="60"/> &nbsp;<h1>จังหวัดราชบุรี</h1>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -74,7 +75,7 @@ class Navbar extends React.Component{
 
 $(document).on("scroll", function(){
   if
-  ($(document).scrollTop() > 200){
+  ($(document).scrollTop() > 190){
     $("#banner").removeClass("bg-transparent");
     $("#banner").addClass("bg-light");
   }

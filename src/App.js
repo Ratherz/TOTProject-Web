@@ -7,7 +7,7 @@ import Footer from './asset/components/footer'
 function App() {
   return (
     <div>
-      <Navbar/>
+    <Navbar/>
     <Template/>
     <Footer/>
     </div>
