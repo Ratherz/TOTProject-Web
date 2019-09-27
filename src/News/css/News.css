@@ -1,0 +1,25 @@
+.container-fluid{
+    /* height: auto; */
+    margin: 0;
+    padding: 0;
+
+}
+.background{
+    background-color: aquamarine;
+    background-image: linear-gradient(aquamarine,white);
+    background-size: auto;
+    width: auto;
+    height: auto;
+    margin-right: 0em;
+    
+    
+}
+
+.square {
+    /* background-image: url('../images/BG/Border.png'); */
+    background-size: 100em;
+    width: auto; 
+    /* background-color: #fff;
+    border: 2px solid #555; */
+    
+  } 
