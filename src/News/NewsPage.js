@@ -6,9 +6,9 @@ export default function NewsPage(){
         <div className="container-fluid m-0 background" >
             <div className="row ">
                 <div className="col-12 col-sm-12 square">
-                    
+                   
                 </div>
-                
+
             </div>
         </div>
     );
