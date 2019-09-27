@@ -30,9 +30,6 @@ export default function Template(){
                     </div>
                 </div>
             </div>
-            <div className="footer">
-
-            </div>
         </div>
     );
 }
