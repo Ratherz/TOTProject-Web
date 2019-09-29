@@ -1,0 +1,89 @@
+.header{
+  position:relative;
+  background: url(../asset/images/header.png) top center no-repeat;
+  background-size: cover;
+  height: 15em;
+  overflow: hidden;
+  outline: 0ch;
+  font-family: 'edmuzazhiregular';
+  text-align: center;
+  width: 100%;
+}
+.centeres{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72px;
+  color: white;
+  
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
+}
+.container-fluid{
+  padding:0;
+}
+.footer{
+    height: 20vh;
+    background-color: tomato;
+}
+
+.content-auto{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: relative;
+    height: auto;
+    background:url(../asset/images/background.png) top center no-repeat;
+}
+
+.content-100{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: relative;
+    height: 120vh;
+    background:url(../asset/images/background.png) top center no-repeat;
+}
+
+.title{
+    padding-top:16px;
+    display:block;
+    width:100%;
+    text-align: center;
+    height:72px;
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+    margin-left: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=K2D&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+  body{
+    font-family: 'Sriracha', cursive;
+  }
+
+
+  @font-face {
+    font-family: 'edmuzazhiregular';
+    src: url('../asset/font/title/edmuzazhi-webfont.eot');
+    src: url('../asset/font/title/edmuzazhi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/font/title/edmuzazhi-webfont.woff2') format('woff2'),
+         url('../asset/font/title/edmuzazhi-webfont.woff') format('woff'),
+         url('../asset/font/title/edmuzazhi-webfont.ttf') format('truetype'),
+         url('../asset/font/title/edmuzazhi-webfont.svg#edmuzazhiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:323px;
+  width:576px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:323px;
+  width:576px;
+}
