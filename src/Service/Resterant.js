@@ -17,8 +17,8 @@ export default function Template(){
                         <div className="col-sm-4"/>
                         <div className="col-sm-8">
                         <div className="row">
-                            <div className="col-sm-12 title">
-                              สถานที่ท่องเที่ยว
+                            <div className="col-sm-12 title"> 
+                            ข้อมูลร้านอาหาร
                             </div>
                         </div>
                         </div>
