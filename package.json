@@ -7,9 +7,14 @@
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
     "react": "^16.9.0",
+<<<<<<< HEAD
     "react-dom": "^16.10.1",
     "react-icons": "^3.7.0",
     "react-router-dom": "^5.1.2",
+=======
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+>>>>>>> 5db186416e5d1ab3d206b6e32b9bb753b110f9bc
     "react-scripts": "3.1.2"
   },
   "scripts": {
@@ -32,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
   }
 }
