@@ -23,8 +23,22 @@
   padding:0;
 }
 .footer{
-    height: 20vh;
+    height: 100%;
     background-color: tomato;
+}
+.m-10{
+  margin: 10px;
+}
+.p-10{
+  padding: 10px;
+}
+
+.a-center{
+  margin: 0em;
+  position: relative;
+  top: 75%;
+  -ms-transform: translateY(-75%);
+  transform: translateY(-75%);
 }
 
 .content-auto{
@@ -74,3 +88,12 @@
     font-style: normal;
 
 }
+
+.col-sm-4{
+  padding:0;
+}
+
+.row{
+  margin:0;
+}
+
