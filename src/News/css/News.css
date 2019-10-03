@@ -1,0 +1,65 @@
+.container-fluid{
+    /* height: auto; */
+    margin: 0;
+    padding: 0;
+
+}
+.background{
+    background-color: aquamarine;
+    background-image: linear-gradient(aquamarine,white);
+    background-size: auto;
+    width: auto;
+    height: auto;
+    margin-right: 0em;
+    
+    
+}
+
+.square {
+    /* background-image: url('../images/BG/Border.png'); */
+    background-size: 100em;
+    width: auto; 
+    /* background-color: #fff;
+    border: 2px solid #555; */
+    
+  } 
+
+  .container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  background-color: #66ff99;
+  border-radius:23px 23px 0 0 ;
+}
+
+.bg-silver{
+    background-color: #cccccc;
+    border-bottom: 5px solid #66ff99;
+}
+.bg-silver-2{
+    background-color: #f2f2f2;
+    height: 60vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a.nav-link{
+    color: #000000;
+    font-size: 17px;
+}
+.Card{
+    width: 13em;
+    margin: 1.5em;
+}
