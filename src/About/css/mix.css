@@ -1,0 +1,211 @@
+.header{
+    position:relative;
+    background: url(../../asset/images/header.png) top center no-repeat;
+    background-size: cover;
+    height: 15em;
+    overflow: hidden;
+    outline: 0ch;
+    font-family: 'edmuzazhiregular';
+    text-align: center;
+    width: 100%;
+  }
+  .centeres{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    color: white;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black; */
+  }
+  .container-fluid{
+    padding:0;
+  }
+  .footer{
+      height: 100%;
+      background-color: tomato;
+  }
+  .m-10{
+    margin: 10px;
+  }
+  .p-10{
+    padding: 10px;
+  }
+  
+  
+  .content-auto{
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      position: relative;
+      height: auto;
+      background:url(../../asset/images/background2.png) top center no-repeat;
+  }
+  
+  .sub{
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+  }
+  .content-100{
+    position: relative;
+      height: 120vh;
+      background:url(../../asset/images/background2.png) top center no-repeat;
+  }
+
+  
+  .title-History{
+      padding-top:16px;
+      display:block;
+      width:100%;
+      text-align: center;
+      height:72px;
+      font-family: 'Sriracha', cursive;
+      font-size: 30px;
+      /* margin-left: 1em; */
+      margin-top: -1ex;
+      color: white;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=K2D&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+  
+    body{
+      font-family: 'Sriracha', cursive;
+    }
+  
+  
+    @font-face {
+      font-family: 'edmuzazhiregular';
+      src: url('../../asset/font/title/edmuzazhi-webfont.eot');
+      src: url('../../asset/font/title/edmuzazhi-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../../asset/font/title/edmuzazhi-webfont.woff2') format('woff2'),
+           url('../../asset/font/title/edmuzazhi-webfont.woff') format('woff'),
+           url('../../asset/font/title/edmuzazhi-webfont.ttf') format('truetype'),
+           url('../../asset/font/title/edmuzazhi-webfont.svg#edmuzazhiregular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+
+.History{
+    margin-top: 3ex;
+    margin: 25px;
+}
+.imgHistory{
+    margin-top: 3ex;
+    margin-bottom: 2ex;
+}
+
+.History2{
+  margin-top: 3ex;
+  margin-left: -50px;
+  margin: 25px;
+}
+
+.imgHistory2{
+  margin-top: 3ex;
+  margin-bottom: 2ex;
+}
+
+
+
+
+
+.head-Mueang{
+  margin-top: 2ex;
+}
+
+.text-Mueang{
+  margin: 25px;
+}
+
+.img-Mueang{
+  margin-top: 8ex;
+  
+}
+
+.text-Mueang2{
+  margin: 25px;
+
+}
+
+.head-Photharam{
+  margin-top: 4ex;
+}
+
+.text-ChomBueng{
+  margin: 25px;
+}
+
+
+.bg-Manager1{
+  background-color: hsl(300, 100%, 100%);
+  /* border: 1ex solid black; */
+  background-size: 100% 100%;
+  /* -webkit-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 2.5px 0px rgba(0,0,0,0.75); */
+  margin: 1em;
+}
+.bg-Manager2{
+  background-color: rgb(245, 245, 245);
+  background-size: 100% 100%;
+  margin: 1em;
+}
+.bg-Manager3{
+  background-color: rgb(233, 233, 233);
+  background-size: 100% 100%;
+  margin: 1em;
+}
+.bg-Manager4{
+  background-color: rgb(211, 211, 211);
+  background-size: 100% 100%;
+  margin: 1em;
+}
+
+.img-Manager{
+  margin: 10px;
+}
+
+.text-Manager{
+  margin: 20px;
+  color: rgb(0, 0, 0);
+
+}
+
+.button-Manager {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+.button-Manager1 {
+  margin-top: 5ex;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button-Manager1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.border-Manager{
+  background-color: rgb(255, 255, 255);
+  border-bottom: rgb(68, 71, 94) 1ex solid;
+  /* border-left: rgb(68, 71, 94) 0.6ex solid; */
+  background-size: 100% 100%;
+  margin: 1em;
+  padding: 10px;
+}
