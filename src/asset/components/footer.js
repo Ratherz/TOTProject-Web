@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../About/css/mix.css'
+import '../css/Template.css'
 import App from '../../App'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLine } from "react-icons/fa";
@@ -25,10 +25,10 @@ export default function Footer(){
                    
                 </div>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 ">
                 <div className="row">
                     <div className="col-sm-12 ">
-                        <div className="a-center p-10 m-10"><center>
+                        <div className="a-center p-10 m-10 "><center>
                         <h5>Tel: 092-223-3322</h5>
                         </center></div>
                     </div>

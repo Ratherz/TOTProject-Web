@@ -10,7 +10,7 @@ export default function Manager(){
                    ที่นี่ ราชบุรี
                 </div>
             </div>
-            <div className="content-auto sub">
+            <div className="content-mix sub">
         
                 <div className="row">   
                     <div className ="container">
@@ -19,13 +19,9 @@ export default function Manager(){
                                 <div className="col-sm-12 title-History">
                                     คณะผู้บริหาร
                                 </div>
+                                
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="row">
+                            <div className="row">
                     <div className="col-sm-1" />
                     <div className="col-sm-3">
                         <center><img src = {require('../../asset/images/Manager/1058.jpg')} width="150px" height="200ex"/></center>
@@ -39,6 +35,12 @@ export default function Manager(){
                    </div>
                     
                 </div>
+                        </div>
+                    </div>
+                </div>
+
+
+               
             </div>
                 
         </div>

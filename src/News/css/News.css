@@ -24,11 +24,6 @@
     
   } 
 
-  .container-fluid{
-    margin: 0;
-    padding: 0;
-}
-
 .row{
     height: 100%;
     margin-bottom: 0;
@@ -58,8 +53,101 @@
 a.nav-link{
     color: #000000;
     font-size: 17px;
+    text-align: left
 }
-.Card{
-    width: 13em;
+.card{
+
+    max-width: 18em;
     margin: 1.5em;
+    
 }
+
+.Img-Card{
+    width: auto;
+    height: 12em;
+}
+
+.card-deck{
+    margin: 0;
+}
+
+/* <Navsiderbar> */
+
+.Sidetab{
+    text-align: center;
+}
+  
+.New-content{
+    padding: 0;
+    margin: 0;
+    height: auto; 
+    position: relative;
+}
+
+.light{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.light:hover{
+  background: #666;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.item-buttun{
+  text-decoration: none;
+  text-align: left;
+}
+
+.SizeMenu{
+  padding: 0;
+  margin: 0;
+}
+
+.Navsidebar{
+  padding: 0;
+  background-color: #cac6c6;
+  
+}
+/* <Navsiderbar/> */
+/* <contentNews>*/
+.colcontent{
+  padding: 0;
+}
+
+.Head-row{
+  margin: 0;
+}
+
+.Content-Card{
+
+  
+}
+/* <contentNews/> */
+/* <Pagination>*/
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+
+}
+.pagination{
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* <Pagination/>*/

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../About/css/Navbar.css'
+import '../css/Navbar.css'
 import $ from 'jquery'
 
 class Navbar extends React.Component{
@@ -345,17 +345,13 @@ class Navbar extends React.Component{
 
 $(document).on("scroll", function(){
   if
-<<<<<<< HEAD
   ($(document).scrollTop() > 100){
-=======
-  ($(document).scrollTop() > 190){
->>>>>>> 5db186416e5d1ab3d206b6e32b9bb753b110f9bc
     $("#banner").removeClass("bg-transparent");
     $("#banner").addClass("bg-light");
   }
   else
   {
-    $("#banner").addClass("fixed-top");
+
     $("#banner").addClass("bg-transparent");
     $("#banner").removeClass("bg-light");
   }
