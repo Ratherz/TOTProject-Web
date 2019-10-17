@@ -18,6 +18,7 @@
 
 import React from 'react'
 import '../asset/css/Template.css'
+
 import Picture from '../asset/images/nws.jpg'
 import { CardNews } from './component/CardNews'
 import { Navsidebar } from './component/Navsidebar'

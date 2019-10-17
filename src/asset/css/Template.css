@@ -25,6 +25,8 @@
   .footer{
       height: 120%;
       background-color: tomato;
+      position: relative;
+      margin-top:auto; 
   }
   .m-10{
     margin: 10px;

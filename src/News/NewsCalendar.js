@@ -1,10 +1,8 @@
-import React from 'react';
-import '../asset/css/Template.css';
-import { CardVideo } from './component/CardVideo'
-import { Navsidebar } from './component/Navsidebar'
-import { Popup } from './component/Popup'
+import React from 'react'
+import '../asset/css/Template.css'
+import { Calendar } from './component/Calendar'
 
-export default function NewsVideo(){
+export default function NewsCalendar() {
     return(
         <div className="container-fluid">
             <div className="header">
@@ -19,26 +17,22 @@ export default function NewsVideo(){
                         <div className="col-sm-8">
                         <div className="row">
                             <div className="col-sm-12 title">
-                                วีดิโอประจำจังหวัด 
+                                ปฏิทินกิจกรรมจังหวัด
                             </div>
                             </div>
                         </div>
                     </div>
-                            <CardVideo/>          
                 </div>
                 <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-sm-2"></div>
+                        <div className="col-sm-8">
+                            <Calendar/>
+                        </div>
+                        <div className="col-sm-2"></div>
+                    </div>
                     <div className="New-content">
                         <div className="Head-row row">
-                            {/* <div className="Navsidebar col-sm-2 col-lg-2">
-                                <Navsidebar/>
-                            </div> */}
-                            {/* <div className="colcontent col-sm-10 col-lg-10">
-                               <center>
-                                    <CardNews/>
-                               </center>
-                                    
-                            </div> */}
-                                {/* <Pagination/> */}
                         </div>
                     </div>
                 </div>
